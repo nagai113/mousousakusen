@@ -1,0 +1,58 @@
+/* テーマオプションページは inc ディレクトリ参照 */
+
+/* メディアアップローダーで「添付ファイル投稿 URL」を非表示に */ 
+.button.urlpost	{ display:none !important; }
+
+/*-------------------------------------------*/
+/* 記事タイトル欄
+/*-------------------------------------------*/
+/* 非公開 */
+body.private #wpwrap #titlewrap input,
+/* レビュー待ち */
+body.pending #wpwrap #titlewrap input,
+/* 新規追加？ */
+body.auto-draft #wpwrap #titlewrap input,
+/* 下書き */
+body.draft #wpwrap #titlewrap input { border:2px solid #F66; }
+/* 公開済み */
+body.publish #wpwrap #titlewrap input { border:2px solid #39C; }
+
+/*-------------------------------------------*/
+/* 記事編集画面_公開ボックス
+/*-------------------------------------------*/
+body.private #submitdiv,
+body.pending #submitdiv,
+body.auto-draft #submitdiv,
+body.draft #submitdiv	{ border:2px solid #f66; }
+body.publish #submitdiv	{ border:2px solid #39C; }
+
+/*-------------------------------------------*/
+/* テーマオプション
+/*-------------------------------------------*/
+#biz_vektor_options h3			{ background-color:#666; color:#fff; border-left:5px solid #000;border-right:5px solid #000; padding:6px 15px;font-size:150%;}
+#biz_vektor_options h4			{ border-bottom:1px dotted #000; font-size:150%; padding:15px 0px 4px; margin-bottom:10px; }
+
+.bizvektorOptionNavi li { display:inline-block;padding:0px 1px; }
+.bizvektorOptionNavi li a	{ padding:5px 10px; border:1px solid #ccc; border-radius:4px;}
+
+#biz_vektor_options textarea	{ width:200px; }
+#biz_vektor_options .sectionBox	{ padding-top:50px; }
+#biz_vektor_options #design.sectionBox	{ padding-top:10px; }
+#biz_vektor_options #topPage table#topPr	{border-left:1px dotted #666;margin-bottom:20px;}
+#biz_vektor_options #topPage table#topPr	th,
+#biz_vektor_options #topPage table#topPr	td	{ padding:5px 10px; border-right:1px dotted #666;  }
+#biz_vektor_options #topPage table#topPr	th	{ background-color:#e5e5e5;}
+#biz_vektor_options #topPage table#topPr	td dl { margin:0px; padding:0px; }
+#biz_vektor_options #topPage table#topPr	td dl dt { font-weight:bold; }
+
+.alert	{ color:#f00; }
+
+#biz_vektor_options #wpcontent select option { padding-right: 5px; }
+#biz_vektor_options .image-radio-option td { padding-top: 15px; }
+#biz_vektor_options .image-radio-option label { display: block; float: left; margin: 0 30px 20px 2px; position: relative; }
+#biz_vektor_options .image-radio-option input { margin: 0 0 10px; }
+#biz_vektor_options .image-radio-option span { display: block; width: 136px; }
+#biz_vektor_options .image-radio-option img { margin: 0 0 0 -2px; }
+#link-color-example { -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; border: 1px solid #dfdfdf; margin: 0 7px 0 3px; padding: 4px 14px; }
+
+body.rtl .image-radio-option label { float: right; margin: 0 2px 20px 30px; }
