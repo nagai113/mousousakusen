@@ -49,7 +49,7 @@
 	<!-- [ #siteBottom ] -->
 	<div id="siteBottom">
 	<div id="siteBottomInner" class="innerBox">
-	<?php biz_vektor_footerCopyRight(); ?>
+Copyright © 株式会社妄想作戦会議室 All Rights Reserved.
 	</div>
 	</div>
 	<!-- [ /#siteBottom ] -->
